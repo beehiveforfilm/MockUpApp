@@ -1,0 +1,46 @@
+{
+  "name": "mockupapp",
+  "version": "1.0.0",
+  "description": "mocking up the first wire frame https://realtimeboard.com/app/board/o9J_k0UOLOg=/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create" : "webpack",
+    "start": "webpack-dev-server --open"
+  },
+   "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beehiveforfilm/MockUpApp.git"
+  },
+  "keywords": [
+    "testapp"
+  ],
+  "author": "beehive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beehiveforfilm/MockUpApp/issues"
+  },
+  "homepage": "https://github.com/beehiveforfilm/MockUpApp#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "path": "^0.12.7",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  }
+}

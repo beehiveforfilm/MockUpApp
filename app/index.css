@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+
+}
+
+/*
+Main Container Styles
+*/
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*
+Main Container Styles End
+*/
+
+
+/*
+Header Styles
+*/
+
+.main-header{
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-between;
+    /* height: 10%; */
+}
+
+.header-list{
+    display: flex;
+    margin: 0px;
+}
+
+.header-list li {
+    list-style-type: none;
+    padding:5px;
+}
+
+/*
+Header Styles End
+*/
+
+
+/*
+Project Styles
+*/
+
+.project-list-container {
+    margin : 0 auto;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.project-list-item {
+    margin: 0 auto;
+    list-style-type: none;
+    min-height: 100px;
+
+}
+
+
+
+/*
+Header Styles End
+*/
+
+ul {
+    padding : 0px;
+}
